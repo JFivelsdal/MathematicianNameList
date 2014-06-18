@@ -109,7 +109,7 @@ mathNameVec <- gsub(pattern = "educator|educationist|mathematician|professor|aca
 
 mathNameVec <- gsub(pattern = "mathematics|historian|Americanscholar|economist|numbertheorist|inventor|epidemiologist|cryptographer|Three Pillarsof Chinese Catholicism|physicist|psychologist|differentialgeometer|scientist|businessman|logician",replacement = "", x = mathNameVec)
 
-mathNameVec <- gsub(pattern = "musician|metrologist|cryptanalyst|geodesist|Historyofsciencein Classical Antiquity|Hinduand Buddhistcontributiontoscienceinmedieval Islam",replacement = "", x = mathNameVec)
+mathNameVec <- gsub(pattern = "Americanfootball|musician|metrologist|cryptanalyst|geodesist|Historyofsciencein Classical Antiquity|Hinduand Buddhistcontributiontoscienceinmedieval Islam",replacement = "", x = mathNameVec)
 
 mathNameVec <- gsub(pattern = "Hypatiaof Alexandria",replacement = "Hypatia of Alexandria", x = mathNameVec)
 
@@ -125,6 +125,7 @@ mathNameVec <- gsub(pattern = "Theodosiusof Bithynia",replacement = "Theodosius 
 
 mathNameVec <- gsub(pattern = "Theonof Alexandria",replacement = "Theon of Alexandria", x = mathNameVec)
 
+mathNameVec <- gsub(pattern = "Pappusof Alexandria",replacement = "Pappus of Alexandria", x = mathNameVec)
 #alphabetMath <- alphabetMath[-grep(pattern = "Main_Page", x = alphabetMath)]
 #mathEndPos <- mathLinks[which(str_locate(pattern= "Wrangler",string= mathLinks) > 0)[1]
 
