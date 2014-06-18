@@ -107,9 +107,9 @@ for(i in 1:length(namesMath))
 mathNameVec <- storeName
 mathNameVec <- gsub(pattern = "educator|educationist|mathematician|professor|academic|astronomer|Womeninmathematicsinthe United States|Australian Statistician|statistician",replacement = "", x = mathNameVec)
 
-mathNameVec <- gsub(pattern = "historian|Americanscholar|economist|numbertheorist|inventor|epidemiologist|cryptographer|Three Pillarsof Chinese Catholicism|physicist|psychologist|differentialgeometer|scientist|businessman|logician",replacement = "", x = mathNameVec)
+mathNameVec <- gsub(pattern = "mathematics|historian|Americanscholar|economist|numbertheorist|inventor|epidemiologist|cryptographer|Three Pillarsof Chinese Catholicism|physicist|psychologist|differentialgeometer|scientist|businessman|logician",replacement = "", x = mathNameVec)
 
-mathNameVec <- gsub(pattern = "metrologist|cryptanalyst|geodesist|Historyofsciencein Classical Antiquity|Hinduand Buddhistcontributiontoscienceinmedieval Islam",replacement = "", x = mathNameVec)
+mathNameVec <- gsub(pattern = "musician|metrologist|cryptanalyst|geodesist|Historyofsciencein Classical Antiquity|Hinduand Buddhistcontributiontoscienceinmedieval Islam",replacement = "", x = mathNameVec)
 
 mathNameVec <- gsub(pattern = "Hypatiaof Alexandria",replacement = "Hypatia of Alexandria", x = mathNameVec)
 
