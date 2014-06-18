@@ -109,11 +109,11 @@ mathNameVec <- gsub(pattern = "educator|educationist|mathematician|professor|aca
 
 mathNameVec <- gsub(pattern = "historian|Americanscholar|economist|numbertheorist|inventor|epidemiologist|cryptographer|Three Pillarsof Chinese Catholicism|physicist|psychologist|differentialgeometer|scientist|businessman|logician",replacement = "", x = mathNameVec)
 
-mathNameVec <- gsub(pattern = "geodesist|Historyofsciencein Classical Antiquity|Hinduand Buddhistcontributiontoscienceinmedieval Islam",replacement = "", x = mathNameVec)
+mathNameVec <- gsub(pattern = "metrologist|cryptanalyst|geodesist|Historyofsciencein Classical Antiquity|Hinduand Buddhistcontributiontoscienceinmedieval Islam",replacement = "", x = mathNameVec)
 
 mathNameVec <- gsub(pattern = "Hypatiaof Alexandria",replacement = "Hypatia of Alexandria", x = mathNameVec)
 
-mathNameVec <- gsub(pattern = "mathematical|scholar|politician|architect|writer|philosopher",replacement = "", x = mathNameVec)
+mathNameVec <- gsub(pattern = "engineer|humancomputer|explorer|mathematical|scholar|politician|architect|writer|philosopher",replacement = "", x = mathNameVec)
 
 mathNameVec <- gsub(pattern = "Menelausof Alexandria",replacement = "Menelaus of Alexandria", x = mathNameVec)
 
